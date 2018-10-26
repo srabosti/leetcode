@@ -10,10 +10,10 @@
 class Solution {
     public TreeNode sortedArrayToBST(int[] nums) {
         
-        return makeBST(0,nums.length-1, nums);
+        return makeBST456(0,nums.length-1, nums);
     }
     
-    public TreeNode makeBST(int start, int end, int[] nums){
+    public TreeNode makeBST456(int start, int end, int[] nums){
         if(nums.length==0 || start>end)
             return null;
         
